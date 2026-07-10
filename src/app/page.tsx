@@ -212,15 +212,7 @@ export default function Home() {
               <p className="text-xs text-slate-400">Intelligent Register Normalization & Schema Cleaning</p>
             </div>
           </div>
-          <button
-            onClick={downloadSampleFile}
-            className="flex items-center space-x-2 px-4 py-2 border border-slate-700 hover:border-slate-500 bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white rounded-lg transition-all text-xs font-semibold shadow-sm"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-            </svg>
-            <span>Download Sample Messy File</span>
-          </button>
+
         </div>
       </header>
 
