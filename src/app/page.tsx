@@ -497,7 +497,7 @@ export default function Home() {
                     <tbody className="divide-y divide-slate-850">
                       {activeSheet.rawRows.slice(activeSheet.headerRowIndex + 1, activeSheet.headerRowIndex + 8).map((row, rowIdx) => (
                         <tr key={`orig-${rowIdx}`} className="hover:bg-slate-900/30 transition-colors">
-                          {row.map((cell, cellIdx) => (
+                          {row.map((cell: any, cellIdx: number) => (
                             <td
                               key={cellIdx}
                               className="px-3 py-2 border-r border-slate-850 whitespace-nowrap text-slate-300"
